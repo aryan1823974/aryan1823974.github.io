@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>About Me - Shaka</title>
+        <!-- Use the Tokyo Night theme for highlight.js -->
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/tokyo-night-dark.min.css"
+        />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+        />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="style.css"
+        />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+        <script>
+            hljs.highlightAll();
+        </script>
+    </head>
+    <body>
+        <div class="container" id="about">
+            <h1>I'm Aryan</h1>
+
+            <pre><code>
+impl Person {
+    fn new() -> Self {
+        Person {
+            name: String::from("Aryan"),
+            who_am_i: String::from("Software Developer and Sysadmin"),
+            organisation: String::from("Actively Hunting For One"),
+            languages: vec![String::from("Rust"), String::from("C"), String::from("Python")],
+        }
+    }
+}
+            </code></pre>
+            <p>
+                I'm Aryan, a software engineer and sysadmin focused on
+                efficiency and optimization. I specialize in building scalable
+                solutions using
+                <strong>Rust</strong> and <strong>Linux</strong>.
+            </p>
+            <p>I think i write clean simple and efficient code.</p>
+            <p>I like to use linux everyday.</p>
+
+            <a href="src/doc/cv.pdf" class="cv-link" download>Download CV</a>
+        </div>
+
+        <div class="container" id="skills">
+            <h2>Skills</h2>
+
+            <!-- Programming Languages Section -->
+            <div class="category-section">
+                <h3>Programming Languages</h3>
+                <div class="logos">
+                    <div class="logo-card">
+                        <i class="devicon-rust-plain colored icon-large"></i>
+                        <p>Rust</p>
+                    </div>
+                    <div class="logo-card">
+                        <i class="devicon-python-plain icon-large"></i>
+                        <p>Python</p>
+                    </div>
+                    <div class="logo-card">
+                        <i class="devicon-c-plain colored icon-large"></i>
+                        <p>C</p>
+                    </div>
+                    <div class="logo-card">
+                        <i class="devicon-bash-plain colored icon-large"></i>
+                        <p>Bash</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tools and Frameworks Section -->
+            <div class="category-section">
+                <h3>Tools and Frameworks</h3>
+                <div class="logos">
+                    <div class="logo-card">
+                        <i class="devicon-archlinux-plain colored icon-large"></i>
+                        <p>Archlinux</p>
+                    </div>
+                    <div class="logo-card">
+                        <i class="devicon-docker-plain colored icon-large"></i>
+                        <p>Docker</p>
+                    </div>
+                    <div class="logo-card">
+                        <i class="devicon-linux-plain colored icon-large"></i>
+                        <p>Linux</p>
+                    </div>
+                    <div class="logo-card">
+                        <i class="devicon-neovim-plain colored icon-large"></i>
+                        <p>Neovim</p>
+                    </div>
+                    <div class="logo-card">
+                        <i class="devicon-emacs-original colored icon-large"></i>
+                        <p>Emacs</p>
+                    </div>
+                    <div class="logo-card">
+                        <i class="devicon-markdown-plain colored icon-large"></i>
+                        <p>Markdown</p>
+                    </div>
+                    <div class="logo-card">
+                        <i class="devicon-nginx-plain colored icon-large"></i>
+                        <p>Nginx</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container" id="certifications">
+                <h2>Certifications</h2>
+            <div class="certification">
+                <div class="cert-card">
+                    <img src="src/images/cloud.png" alt="Cloud Computing certification" />
+                    <p>
+                        Cloud Computing 
+                        [NPTEL] OCT 2024
+                    </p>
+                    <a
+                        href="https://www.nptel.com/certificates/xxxxxxxxxx"
+                        target="_blank"
+                        >View Certificate</a
+                    >
+                </div>
+                <div class="cert-card">
+                    <img src="src/images/cope.png" alt="Programming in C++: A Hands-on Introduction" />
+                    <p>
+                        Programming in C++: A Hands-on Introduction
+                        [Coursera] Feb 2024
+                    </p>
+                    <a
+                        href="https://www.coursera.com/certificate/xxxxxxxxxx"
+                        target="_blank"
+                        >View Certificate</a
+                    >
+                </div>
+                <div class="cert-card">
+                    <img src="src/images/cyber.png" alt="Ethical Hacking certification" />
+                    <p>
+                        Ethical Hacking Essentials (IBM) [Coursera] 
+                        December 2024
+                    </p>
+                    <a
+                        href="https://www.coursera.org/certificate/xxxxxxxxxx"
+                        target="_blank"
+                        >View Certificate</a
+                    >
+            </div>
+        </div>
+
+        <div class="container" id="projects" style="text-align: left">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <div class="project-text">
+                        <strong>mpv-osc-tethys:</strong>An OSC UI replacement for MPV
+                        <br />
+                        mpv-osc-tethys is a custom theme for the MPV media player 
+                        that enhances the on-screen controller (OSC)
+                        with a modern design and additional features.
+                        This theme replaces the default osc.lua, 
+                        providing a more visually appealing interface with 
+                        support for thumbnail previews of local files.
+                        <br />
+                        <strong>Tech:</strong> Lua, Mpv, Python
+                        <br />
+                        <a
+                            class="project-link"
+                            href="https://github.com/aryan1823974/mpv-osc-tethys"
+                            target="_blank"
+                            >GitHub</a
+                        >
+                    </div>
+                    <img
+                        src="src/images/mpv.png"
+                        alt="Mpv-osc-tethys"
+                        class="project-image"
+                    />
+                </li>
+                <li>
+                    <div class="project-text">
+                        <strong>Handlr-Regex:</strong> A better xdg-open with regex support
+                        <br />
+                        handlr is a powerful application management tool that simplifies
+                        the process of setting default applications for file types and URLs.
+                        With support for regular expressions, users can define
+                        custom handlers based on file extensions or MIME types
+                        <br />
+                        <strong>Tech:</strong> Rust, Xdg-tools, Linux
+                        <br />
+                        <a
+                            class="project-link"
+                            href="https://github.com/aryan1823974/handlr-regex"
+                            target="_blank"
+                            >GitHub</a
+                        >
+                    </div>
+                    <img
+                        src="src/images/handlr.png"
+                        alt="Handlr-regex Project"
+                        class="project-image"
+                    />
+                </li>
+            </ul>
+        </div>
+        <div class="container" id="get-in-touch">
+            <h2>Get in Touch</h2>
+            <p>
+                If you'd like to connect, feel free to reach out via the links
+                below:
+            </p>
+            <div class="social-links">
+                <a
+                    href="https://github.com/aryan1823974"
+                    target="_blank"
+                    title="GitHub"
+                >
+                    <i class="devicon-github-original"></i>
+                    <!-- GitHub icon -->
+                </a>
+                <a
+                    href="https://x.com/JohnWhitman444"
+                    target="_blank"
+                    title="Twitter (X)"
+                >
+                    <i class="devicon-twitter-original"></i>
+                    <!-- Twitter icon -->
+                </a>
+                <a
+                    href="https://www.linkedin.com/in/aryan12391229/"
+                    target="_blank"
+                    title="LinkedIn"
+                >
+                    <i class="devicon-linkedin-plain"></i>
+                    <!-- LinkedIn icon -->
+                </a>
+            </div>
+        </div>
+    </body>
+</html>
